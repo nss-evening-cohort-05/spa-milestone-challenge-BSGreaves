@@ -1,0 +1,44 @@
+{
+  "cars": [
+    {
+      "make": "Mazda",
+      "model": "3",
+      "year": "2017",
+      "price": "17,845",
+      "description": "A zen car for a minimalist lifestyle",
+      "img": "https://www.mazdausa.com/siteassets/vehicles/2016/m3s/trims/s-gt/2016-m3s-sgt-soulred-profile-global.png?w=460"
+    },
+    {
+      "make": "Mazda",
+      "model": "6",
+      "year": "2017",
+      "price": "21,945",
+      "description": "A ground-breaking sedan in the classical style",
+      "img": "https://www.mazdausa.com/siteassets/vehicles/2017/mazda6/trim/grand-touring/2017-m6g-gt-soul-red-profile-global.png?w=460"
+    },
+    {
+      "make": "Mazda",
+      "model": "CX-3",
+      "year": "2017",
+      "price": "19,960",
+      "description": "A crossover with some serious attitude",
+      "img": "https://www.mazdausa.com/siteassets/vehicles/2017/cx-3/trims/grand-touring/2017-cx3-gt-soulred-profile-global.png?w=460"
+    },
+    {
+      "make": "Mazda",
+      "model": "CX-5",
+      "year": "2017",
+      "price": "21,795",
+      "description": "The perfect do-anything SUV",
+      "img": "https://www.mazdausa.com/siteassets/vehicles/2016/cx5/trims/gt/2016-cx5-gt-soulred-profile-global.png?w=460"
+    },
+    {
+      "make": "Mazda",
+      "model": "MX5 Miata RF",
+      "year": "2017",
+      "price": "31,555",
+      "description": "Carve curvy roads like no other",
+      "img": "https://www.mazdausa.com/siteassets/vehicles/2017/mxr/trims/gt/17-mx5-rf-gt-46g-machine-gray-360-studio-profile.png?w=460"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+Carlot.loadJSON("cars.json");
