@@ -27,3 +27,12 @@
 .price {
 	font-style: italic;
 }
+
+.selected {
+	border: 3px solid black;
+	border-radius: 3px;
+}
+
+#inventoryEdit {
+	width: 350px;
+}
