@@ -1,0 +1,38 @@
+* {
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+}
+
+.navbar {
+	border-radius: 0px;
+}
+
+.brand {
+	max-height: 50px;
+	max-width: 50px;
+}
+
+.navbar-brand {
+	padding-top: 5px;
+}
+
+.navbar-right {
+	padding-right: 10px;
+}
+
+.white-bold {
+	color: white;
+	font-weight: bold;
+}
+
+.price {
+	font-style: italic;
+}
+
+.selected {
+	border: 3px solid black;
+	border-radius: 3px;
+}
+
+#inventoryEdit {
+	width: 350px;
+}
