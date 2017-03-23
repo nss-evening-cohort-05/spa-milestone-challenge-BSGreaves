@@ -19,7 +19,7 @@ function preloadJSON(url) {
     });
   }
 
-preloadJSON("cars.json").then(function(response) {
+preloadJSON("/js/cars.json").then(function(response) {
 	let carData = JSON.parse(response.responseText);
 	carData = carData.cars;
 	Carlot.printDOM(carData)}, function(Error) {
