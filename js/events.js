@@ -12,7 +12,7 @@ var Carlot = (function(oldCarlot) {
                     targetCard = targetCard.parentNode;
                 }
                 cardSelected = true;
-                Carlot.styleSelectedCard(targetCard, "#eaf2ff"); //styles the card
+                Carlot.styleSelectedCard(targetCard); //styles the card
                 descriptionEditor.focus();
                 targetDescription = targetCard.children[1].children[2];
                 descriptionEditor.value = targetDescription.innerText;
