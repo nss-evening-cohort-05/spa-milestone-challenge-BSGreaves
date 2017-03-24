@@ -1,10 +1,10 @@
 var Carlot = (function(oldCarlot) {
     var activeCard;
 
-    oldCarlot.styleSelectedCard = function(target, color) {
+    oldCarlot.styleSelectedCard = function(target) {
         activeCard = target;
-        activeCard.children[0].setAttribute("style", `background-color: ${color}`);
-        activeCard.setAttribute("style", `background-color: ${color}`);
+        activeCard.children[0].setAttribute("style", "background-color: #eaf2ff");
+        activeCard.setAttribute("style", "background-color: #eaf2ff");
         activeCard.classList.toggle("selected");
     };
     oldCarlot.revertCard = function() {
