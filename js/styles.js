@@ -1,17 +1,21 @@
 var Carlot = (function(oldCarlot) {
-    var activeCard;
+    var activeCard = {};
 
     oldCarlot.styleSelectedCard = function(target) {
+        Carlot.revertCards(); //resets state
         activeCard = target;
-        activeCard.children[0].setAttribute("style", "background-color: #eaf2ff");
         activeCard.setAttribute("style", "background-color: #eaf2ff");
-        activeCard.classList.toggle("selected");
+        activeCard.classList.add("selected");
     };
-    oldCarlot.revertCard = function() {
-        activeCard.children[0].removeAttribute("style");
-        activeCard.removeAttribute("style");
-        activeCard.classList.toggle("selected");
+    oldCarlot.revertCards = function() {
+        let cards = document.querySelectorAll(".car-card");
+        cards.forEach(function(each) {
+            each.removeAttribute("style");
+            each.classList.remove("selected");
+        });
     };
-
+    oldCarlot.resetState = function() {
+        activeCard = {};
+    };
     return oldCarlot;
 })(Carlot || {})
